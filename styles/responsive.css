@@ -1,0 +1,140 @@
+@media all and (max-width: 1450px) {
+  .container__header-left,
+  .container__header-right {
+    height: 345vh;
+  }
+  .header__photo {
+    width: fit-content;
+  }
+}
+
+@media all and (max-width: 1030px) {
+  .container__header-left,
+  .container__header-right {
+    height: 360vh;
+  }
+  .it__support > h3 {
+    margin-left: 17vw;
+  }
+  .it__support > h4 {
+    margin-left: 19vw;
+  }
+  #vol1 {
+    margin-left: 12vw;
+  }
+  .container__header-left > h5 {
+    font-size: 15px;
+  }
+  .header__photo {
+    height: 45vh;
+  }
+  .role__discraption {
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 770px) {
+  .header__photo {
+    height: 35vh;
+  }
+  .container__header-left > h1 {
+    font-size: 23px;
+  }
+  .container__header-left > p {
+    font-size: 16px;
+  }
+  .container__header-left > h3 {
+    font-size: 20px;
+  }
+  .container__header-left > h5 {
+    font-size: 13px;
+  }
+  .button__left1 {
+    width: 26vw;
+  }
+  #language2 {
+    margin-top: 18%;
+    font-size: 23px;
+  }
+  .fa-beat-fade {
+    font-size: 15px;
+  }
+  .work__history {
+    font-size: 30px;
+    height: 6vh;
+    width: 44vw;
+  }
+  .it__support > h3 {
+    font-size: 19px;
+  }
+  .it__support > h4 {
+    font-size: 12px;
+  }
+  .it__support > h2 {
+    font-size: 18px;
+  }
+  #vol3 {
+    margin-left: 21vw;
+    font-size: 22px;
+  }
+  #vol4 {
+    margin-left: 21vw;
+  }
+  .role__discraption {
+    font-size: 13px;
+  }
+}
+@media all and (max-width: 430px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .container__header-left {
+    width: 90vw;
+    height: 308vh;
+  }
+  .header__photo {
+    width: fit-content;
+  }
+  .container__header-left > p {
+    margin-left: 14%;
+  }
+  .about__me {
+    display: flex;
+    flex-direction: column;
+  }
+  .button__left1 {
+    width: 62vw;
+  }
+
+  .languages {
+    list-style-type: none;
+  }
+  .container__header-right {
+    width: 90vw;
+    height: 400vh;
+  }
+  .work__history {
+    font-size: 28px;
+    height: 6vh;
+    width: 65vw;
+    margin-top: 12vh;
+  }
+  #vol1 {
+    margin-left: 8vw;
+  }
+}
+
+@media all and (max-width: 380px) {
+  .container__header-left {
+    height: 310vh;
+  }
+  .container__header-right {
+    height: 415vh;
+  }
+}
+@media all and (max-width: 325px) {
+  .container__header-right {
+    height: 470vh;
+  }
+}
